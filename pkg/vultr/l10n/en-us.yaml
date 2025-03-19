@@ -1,0 +1,4 @@
+---
+cluster:
+  provider:
+    vultr: Vultr
