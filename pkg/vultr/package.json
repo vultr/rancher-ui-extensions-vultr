@@ -1,6 +1,6 @@
 {
   "name": "vultr",
-  "description": "vultr plugin",
+  "description": "Vultr Rancher UI extension",
   "version": "0.1.0",
   "private": false,
   "rancher": {
