@@ -2,6 +2,7 @@
   "name": "vultr",
   "description": "Vultr Rancher UI extension",
   "version": "0.1.0",
+  "icon": "https://helm-charts.ewr1.vultrobjects.com/icons/vultr.svg",
   "private": false,
   "rancher": {
     "annotations": {
