@@ -10,5 +10,6 @@ export default function(plugin: IPlugin): void {
   plugin.metadata = require('./package.json');
 
   // Load a product
-  // plugin.addProduct(require('./product'));
+  // This specifically sets the icon for the node driver, not the extension itself.
+  plugin.register('image', 'providers/vultr.svg', 'https://helm-charts.ewr1.vultrobjects.com/icons/vultr.svg');
 }
