@@ -1,4 +1,12 @@
----
-cluster:
-  provider:
-    vultr: Vultr
+driver:
+  vultr:
+    auth:
+      actions:
+        edit: Edit Authentication Config
+        authenticate: Test Authentication
+      fields:
+        apiKey: API Key
+      placeholders:
+        apiKey: "Your Vultr API Key"
+      errors:
+        invalidKey: "Invalid API Key. Please check your key and try again."
